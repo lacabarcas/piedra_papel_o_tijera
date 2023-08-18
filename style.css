@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, red,blue);
+  }
+  
+  .juego {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    border: 5px solid #333;
+    padding: 25px;
+  }
+  
+  .jugador, .computadora {
+    text-align: center;
+  }
+  
+  .jugador img, .computadora img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .resultado {
+    text-align: center;
+  }
+  
+  #eleccion-computadora {
+    width: 100px;
+    height: 100px;
+  }
+  
